@@ -132,7 +132,7 @@ tag_minium: 3
 ## https://www.google.com/tagmanager/
 ## ID 就是对应容器的ID
 ## GoogleTagManagerID: GTM-ABCDEF
-GTM_ID:
+  GTM_ID:GTM-TXLMKD
 
 ## 在文章中使用'[CDN_URL]:'字符串自动替换为下面的地址,主要是为了方便使用.
 CDN_URL: http://your.cdn.url
