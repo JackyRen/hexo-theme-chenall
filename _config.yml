@@ -8,7 +8,7 @@ loaded_modules:
 - fontawesome
 - prettify
 - fancybox
-- mathjax
+  #- mathjax
 
 # 注: 模块是由css或js文件来实现的,部份需要附加js代码的模块在_modules目录下.
 # 如: prettify 如果加载了prettify则会同时加载_modules\_modules.ejs
@@ -89,11 +89,15 @@ analytics:
 # 站点顶部菜单,支持子菜单
 menu:
   Home: ''
+  Wiki: http://wiki.rjjacky.info
   About: about/
   Archives: archives/
   其它链接:
 #    chenall: //chenall.net
     gihtub: https://github.com/JackyRen
+    git: https://git.rjjacky.info/
+    rstudio: https://rstudio.rjjacky.info
+
 
 # ajax_widgets是否使用jquery.load动态加载widget的内容,
 # 注: 部份小工具,像标签,分类,最近文章等,这些工具的内容在所有页面都是一样的,这时它就支持动态加载
@@ -132,7 +136,7 @@ tag_minium: 3
 ## https://www.google.com/tagmanager/
 ## ID 就是对应容器的ID
 ## GoogleTagManagerID: GTM-ABCDEF
-  GTM_ID:GTM-TXLMKD
+GTM_ID: GTM-TXLMKD
 
 ## 在文章中使用'[CDN_URL]:'字符串自动替换为下面的地址,主要是为了方便使用.
 CDN_URL: http://your.cdn.url
@@ -150,3 +154,12 @@ github_id: JackyRen
 
 rss: atom.xml
 
+
+# Deployment
+## Docs: http://hexo.io/docs/deployment.html
+deploy:
+  type: rsync
+  host: cr1jax
+  user: blog
+  port: 22
+  delete: false

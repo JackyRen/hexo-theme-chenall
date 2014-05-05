@@ -4,6 +4,7 @@
 <%partial('module'); -%>
 <%body = trim(body); -%>
 <%if (page.layout == 'widget'){ -%>
+<%- partial('_partial/math-jax')%>
 </head><body>
 <%- (body) -%>
 </body></html>
@@ -15,6 +16,7 @@ if (page.widgets && page.widgets.theme == false)
 <%- _partial('_modules/partial/head_start') -%>
 <%- partial('_partial/head') %>
 <%- _partial('_modules/partial/head_end') -%>
+<%- partial('_partial/math-jax')%>
 </head>
 <body>
   <%- _partial('_modules/partial/body_start') -%>
