@@ -94,9 +94,10 @@ menu:
   Archives: archives/
   其它链接:
 #    chenall: //chenall.net
-    gihtub: https://github.com/JackyRen
+    github: https://github.com/JackyRen
     git: https://git.rjjacky.info/
     rstudio: https://rstudio.rjjacky.info
+    pad: http://rjpad.tk
 
 
 # ajax_widgets是否使用jquery.load动态加载widget的内容,
