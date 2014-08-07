@@ -123,7 +123,8 @@ widgets:
   after_content:  # 文章内容后
     - wumiiRelatedItems
     - post_footer_info
-    - ujian
+      # ujian is too slow to load
+      #- ujian
 
   after_post:     # 文章框架之后
     - post_pageNav
