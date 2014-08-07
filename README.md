@@ -1,4 +1,4 @@
-# chenall V2.0
+# chenall V2.2
 
 基于[Hexo]默认主题light修改而成,采用bootstrap css框架,主要考虑多站点支持.
 在尽量保留原有主题功能的同时采用模块化设计支持多个widgets.实现高度自定义,通过widgets你可以添加许多实用功能.
